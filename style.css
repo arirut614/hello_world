@@ -1,1 +1,27 @@
 body{background-color: blue;
+}
+nav{
+    font:"PT Sans Narrow";
+    text-transform:uppercase;
+}
+.nav-link {
+   opacity: 0.7;
+}
+.nav-link:hover {
+    opacity:1;
+    background-color:#44456 !important;
+}
+header{
+    /*Sizing of the element*/
+   height: 400px;
+   width: 100%;
+   /*Set and adjust background image*/
+   background-image: url("cat.jpeg");
+   background-size: cover;
+   /*Center the text*/
+   text-align: center;
+   font-family: 'Fahkwang', sans-serif;
+}
+header p {
+    font-style:Italic;
+}
